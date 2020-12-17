@@ -1,0 +1,64 @@
+nav {
+    width: 100%;
+    background: rgba(41, 40, 40, 0.133);
+    position: fixed;
+}
+
+.nav_list {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: auto;
+    color: white;
+}
+
+.nav_list li {
+    margin: auto;
+    cursor: pointer;
+    width: 25%;
+    text-align: center;
+    height: 100%;
+    
+}
+
+
+.logo_img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------------------- */
+footer {
+    width: 100%;
+    height: 168px;
+    background: #EBEBEB;
+
+}
+
+.foot_img {
+    display: flex;
+    margin: auto;
+}
+
+.foot_img li {
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+.foot_txt {
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.foot_txt li {
+    padding-bottom: 10px;
+}
+

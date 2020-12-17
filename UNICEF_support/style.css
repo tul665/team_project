@@ -1,0 +1,295 @@
+*> {
+    box-sizing: border-box;
+
+}
+
+.scroll_btn {
+    position: fixed;
+    left: 5.5%;
+    top: 30%;
+    z-index: 999;
+    border: solid #29b6ec;
+    border-radius: 5px;
+}
+
+.scroll_btn li {
+    height: 100px;
+    text-align: center;
+    background: #d2f9f4;
+}
+
+.scroll_btn li a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    line-height: 100px;
+    color: #4e4a4a;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.js_ani {
+    background: #8ac5ec48
+}
+
+nav {
+    z-index: 999;
+}
+
+.up_btn {
+    position: fixed;
+    left: 90.5%;
+    top: 90%;
+    z-index: 999;
+    width: 80px;
+    height: 60px;
+}
+
+.up a {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    display: block;
+    height: 100vh;
+}
+
+.wrap {
+    width: 100%;
+    padding-top: 90px;
+    background: #ebebeb;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    margin-top: 50px;
+    border: none;
+    background: #fff;
+}
+
+th {
+    border-top: 1px solid #8ac5ec;
+}
+
+td {
+    border-bottom: 1px solid #8ac5ec;
+    border-top: 1px solid #8ac5ec;
+}
+
+h1,
+p,
+h2 {
+    margin: auto;
+}
+
+
+
+h1,
+h2,
+h3,
+p,
+td,
+button,
+span {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+
+.btn {
+    margin: auto;
+
+}
+
+th {
+    text-align: left;
+    padding: 2%;
+}
+
+td {
+
+    padding: 20px;
+}
+
+.form-inline .custom-radio {
+    margin-left: 10px;
+}
+
+.check_box {
+    margin-right: 5px;
+}
+
+.ori {
+    position: relative;
+}
+
+.num_img {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+.txt_box {
+    position: absolute;
+    width: 330px;
+    height: 80px;
+    left: 160px;
+    top: -80px;
+    border: 2px solid #626262;
+    padding: 10px;
+    background: #fff;
+}
+
+.txt_box:after {
+    border-top: 10px solid #626262;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 127px;
+}
+
+.center {
+    background: #ebebeb;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 507px) {
+
+    table {
+        width: 90%;
+    }
+
+    h1,
+    p,
+    h2 {
+        width: 90%;
+
+    }
+
+    .up_btn {
+        pointer-events: none;
+        opacity: 0;
+    }
+
+    .support_child {
+        margin-top: 10px;
+    }
+
+    .se_btn {
+        width: 70px;
+    }
+
+    .font_box {
+        text-align: center;
+    }
+
+    .font_btn {
+        margin-top: 5px;
+    }
+
+    .foot_img {
+        padding-left: 10px;
+    }
+
+    .foot_txt {
+        padding: 20px;
+    }
+
+    .logo_img {
+        height: 50px;
+    }
+
+    nav {
+        height: 50px;
+    }
+
+    .nav_list li {
+        line-height: 50px;
+    }
+
+    .nav_list li:nth-child(1) {
+        margin-right: 20px;
+    }
+
+    .scroll_btn {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 508px) {
+
+    table {
+        width: 60%;
+
+    }
+
+    h1,
+    p,
+    h2 {
+        margin: auto;
+        width: 60%;
+        min-width: 520px;
+    }
+
+    td:nth-child(even) {
+        min-width: 508px;
+    }
+
+    .agree td {
+        min-width: 134px;
+    }
+
+    .payment td:nth-child(odd) {
+        min-width: 134px;
+    }
+
+    .input_donate td:nth-child(odd) {
+        min-width: 134px;
+    }
+
+    .email_box {
+        max-width: 130px;
+    }
+
+    .foot_img {
+        width: 845px;
+    }
+
+    .foot_txt {
+        width: 825px;
+    }
+
+    .nav_list {
+        width: 780px;
+    }
+
+    .logo_img {
+        height: 90px;
+    }
+
+    nav {
+        height: 90px;
+    }
+
+    .nav_list li {
+        line-height: 80px;
+    }
+}
